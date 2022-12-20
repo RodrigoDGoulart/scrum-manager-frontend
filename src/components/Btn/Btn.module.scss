@@ -2,9 +2,7 @@
 
 .btn {
     background: none;
-    outline: none;
     color: $light-blue;
-    border: 3px solid $light-blue;
     font-size: 16px;
     border-radius: 12px;
     padding: 12px;
@@ -14,4 +12,17 @@
     cursor: pointer;
     background-color: $light-blue;
     color: white;
+}
+
+.borda {
+    border: 3px solid $light-blue;
+}
+
+.semBorda{
+    border: none;
+}
+
+.semBorda:hover {
+    text-decoration: underline;
+    background: none;
 }
