@@ -1,0 +1,32 @@
+@import '../../styles/colors';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+}
+
+.rotulo {
+    text-indent: 4px;
+    margin: 0;
+}
+
+.campo {
+    margin-top: 4px;
+    background-color: $dark-blue-700;
+    border: none;
+    padding: 10px;
+    border-radius: 12px;
+    color: white;
+}
+
+.campo::placeholder {
+    color: $dark-blue-500;
+    font-size: 14px;
+}
+
+.campo:focus {
+    border: 2px solid  $dark-blue-500;
+    padding: 8px;
+    outline: none;
+}
