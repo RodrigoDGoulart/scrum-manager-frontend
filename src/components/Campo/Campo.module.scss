@@ -18,15 +18,25 @@
     padding: 10px;
     border-radius: 12px;
     color: white;
+    line-height: 14px;
 }
 
 .campo::placeholder {
+    font-family: 'Roboto', sans-serif;
     color: $dark-blue-500;
     font-size: 14px;
 }
 
 .campo:focus {
-    border: 2px solid  $dark-blue-500;
+    border: 2px solid $dark-blue-500;
     padding: 8px;
     outline: none;
+}
+
+.campo::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.semValor {
+    color: $dark-blue-500;
 }
