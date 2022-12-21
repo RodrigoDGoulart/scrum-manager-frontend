@@ -1,0 +1,19 @@
+@import "../../styles/colors";
+
+.container {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.high {
+    background-color: $red;
+}
+
+.med {
+    background-color: $yellow-300;
+}
+
+.low {
+    background-color: $green-400;
+}
