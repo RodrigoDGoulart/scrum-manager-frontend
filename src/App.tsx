@@ -1,8 +1,9 @@
 import { Campo } from "./components/Campo/campo";
-import { Btn } from "./components/Btn/btn";
+import { Btn, MenuBtn } from "./components/Btn/btn";
 import styles from './App.module.scss';
 import { Prioridade } from "./components/Prioridade/prioridade";
 import { Item, ItemComBtn } from "./components/Item/item";
+
 
 export default function App() {
 
@@ -20,8 +21,11 @@ export default function App() {
       <Prioridade nivel="high">Teste</Prioridade>
       <Prioridade nivel="med">Teste</Prioridade>
       <Prioridade nivel="low">Teste</Prioridade>
+
       <Item className={styles.inserir}>Teste</Item>
       <ItemComBtn className={styles.inserir} onClick={() => console.log('foi')}>Teste2</ItemComBtn>
+
+      <MenuBtn comBorda={false}>teste</MenuBtn>
     </div>
   )
 }
