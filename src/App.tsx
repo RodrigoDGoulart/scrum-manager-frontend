@@ -4,12 +4,13 @@ import styles from './App.module.scss';
 import { Prioridade } from "./components/Prioridade/prioridade";
 import { Item, ItemComBtn } from "./components/Item/item";
 import Menu from "./components/Menu/menu";
+import AppRouter from "./routes";
 
 export default function App() {
 
   return (
     <div>
-      <Menu />
+      <AppRouter />
     </div>
   )
 }
