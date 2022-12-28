@@ -1,0 +1,18 @@
+@import "../../styles/colors"; 
+
+.container {
+    border-right: 1px solid $dark-blue-500;
+    width: fit-content;
+    height: 100vh;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    padding-bottom: 0;
+}
+
+.addIcon {
+    font-size: 30px;
+}
